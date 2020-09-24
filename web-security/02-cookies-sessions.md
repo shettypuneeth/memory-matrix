@@ -34,3 +34,30 @@
 Sample usage
 
 > Set-cookie: theme=dark;
+
+## A simple implementation
+
+```js
+// express setup
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookiesParser());
+
+app.get("/", (req, res) => {
+  if (req.cookies.username) {
+    // do operations on a logged in user
+  } else {
+    createReadableStream("index.html").pipe(res);
+  }
+});
+
+app.get("/login", (req, res) => {
+  const { username } = req.body;
+  if (authenticated(username)) {
+    res.cookie("username", username);
+    res.redirect("/");
+  } else {
+    res.send("fail");
+  }
+});
+```
