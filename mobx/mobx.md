@@ -70,3 +70,33 @@ transaction(() => {
 ```
 
 When you use actions, they automatically apply transactions.
+
+## Triggering side-effects using Reactions.
+
+Reactions execute some side-effects when the observables change.
+
+Observer is an example of a out of the box reaction provider.
+
+We can write our own reactions using `when`
+
+Takes two arguments.
+
+1. First one is a condition or expression that is automatically re-evaluated till it returns true
+2. Function that is called as soon as the first one returns true
+
+Once when has executed it's effect, it stops observing.
+
+```js
+when(
+  () => temps.find(isSuitable),
+  () => {
+    alert("Found!");
+  }
+);
+```
+
+Another one is `autorun`
+
+```js
+autorun(() => {});
+```
