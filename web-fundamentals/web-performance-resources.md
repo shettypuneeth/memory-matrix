@@ -13,3 +13,6 @@
 | Link                                                                                                            | Description |
 | --------------------------------------------------------------------------------------------------------------- | ----------- |
 | [State of JS on Android](https://meta.discourse.org/t/the-state-of-javascript-on-android-in-2015-is-poor/33889) |             |
+| [Understanding flame graph](https://www.webperf.tips/tip/understanding-flamegraphs/)                            |             |
+| [Flamegraph in depth](https://www.webperf.tips/tip/flamegraphs-in-depth/)                                       |             |
+| [Flamegraph self time](https://www.webperf.tips/tip/flamegraph-self-time/)                                      |             |
