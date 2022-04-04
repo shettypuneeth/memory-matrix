@@ -1,0 +1,33 @@
+- ### Observations from the house hunt
+	- Start the search on first week of the month and not the last.
+	- Don't hesitate to start; thinking the process is time consuming and tedious.
+	- List down the properties before you start calling them up.
+	- On assumptions —
+	  collapsed:: true
+		- Pictures maybe misleading
+		- Information provided maybe inaccurate
+		- Surrounding neighbourhood may not be appealing. (Garbage processing plant next to the property)
+	- Tracking —
+	  collapsed:: true
+		- List all the interested properties in a spreadsheet
+		- Sort based on the preference
+			- Groceries, markets and online delivery
+			- Commute time
+			- Parks and recreation centres
+		- Group the properties based on location (HSR/KMG).
+		- List down contact numbers, address and a short description of the neighbourhood
+		- Keep the excel up to date once you start the process
+	- Amenities —
+	  collapsed:: true
+		- Plenty of natural light and ventilation
+		- Power backup and parking
+		- Water supply (Corporation/Tanks/Bore-well)
+		- Sockets and plumbing
+		- Kitchen
+			- Slots for refrigerator, owen .etc
+			- Utensils cabinet
+		- Washing machine unit
+			- Space to dry clothes
+- ### After moving in
+	- Detailed video recording the state of house. Cover all areas.
+	- Make a list of all the amenities (closets/keys/locks/kitchen supplies).
